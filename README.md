@@ -83,7 +83,7 @@ Menyediakan file schema .sql berisikan CREATE TABLE untuk tabel yang dibuat
 ### Testing
 CRUD Notes
 
-### Deployment
+### Deployment (Opsional)
 Aplikasi di-deploy dan dapat diakses secara publik.
 Contoh:
 * Railway
