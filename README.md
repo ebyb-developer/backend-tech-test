@@ -11,7 +11,7 @@ Membangun aplikasi Notes Management System berbasis REST API yang menerapkan pra
 ### Database
 * MySQL / MariaDB
 
-## Fitur Wajib
+## 1. Fitur Wajib
 ### Authentication
 * Register
 * Login
@@ -42,10 +42,8 @@ Setiap catatan memiliki:
 * Search note berdasarkan title
 * Filter berdasarkan status
 
-## Ketentuan Teknis
 ### API Standards
 Menggunakan format response yang konsisten.
-
 Contoh:
 ```json
 {
@@ -69,7 +67,7 @@ Minimal validasi:
 ### Database
 Menyediakan file schema .sql berisikan CREATE TABLE untuk tabel yang dibuat
 
-## Nilai Tambah
+## 2. Nilai Tambah
 ### Arsitektur
 * Layered Architecture / Clean Architecture
 * Repository Pattern
@@ -105,7 +103,7 @@ Contoh:
 4. Favorite Notes
 5. Activity Log
 
-## Pengumpulan
+## 3. Pengumpulan
 1. Upload source code ke GitHub (Public).
 2. Sertakan README yang berisi:
    * Cara menjalankan aplikasi
@@ -114,10 +112,10 @@ Contoh:
    * URL Deployment
 3. Kirim link repository ke [developer@ebyb.com](mailto:developer@ebyb.com) dan WhatsApp HRD
 
-## Deadline
+## 4. Deadline
 Maksimal 1 Minggu setelah diberikan Test.
 
-## Penilaian
+## 5. Penilaian
 Penilaian akan mempertimbangkan:
 * Kecepatan pengerjaan
 * Kualitas kode
