@@ -1,35 +1,27 @@
 # Technical Test: Backend Notes Management System
 ## Tujuan
-
 Membangun aplikasi Notes Management System berbasis REST API yang menerapkan praktik pengembangan backend modern, meliputi authentication, authorization, database design, API architecture, dan deployment.
 
 ## Teknologi
-
 ### Backend
-
-* Golang (Gin Framework) atau Laravel
+* Gin **[Nilai Tambah]**, Laravel atau Express
 * REST API
 * JSON Response
 
 ### Database
-
 * MySQL / MariaDB
 
 ## Fitur Wajib
-
 ### Authentication
-
 * Register
 * Login
 * Logout
 * JWT Authentication
 
 ### User Management
-
 * User hanya dapat mengakses data miliknya sendiri
 
 ### Notes Management
-
 * Create Note
 * Get All Notes (Pagination)
 * Get Detail Note
@@ -37,31 +29,24 @@ Membangun aplikasi Notes Management System berbasis REST API yang menerapkan pra
 * Delete Note
 
 ### Note Attributes
-
 Setiap catatan memiliki:
-
 * Title
 * Content
 * Status
-
   * Active
   * Archived
 * Created At
 * Updated At
 
 ### Search & Filter
-
 * Search note berdasarkan title
 * Filter berdasarkan status
 
 ## Ketentuan Teknis
-
 ### API Standards
-
 Menggunakan format response yang konsisten.
 
 Contoh:
-
 ```json
 {
   "success": true,
@@ -71,63 +56,46 @@ Contoh:
 ```
 
 ### Validation
-
 Minimal validasi:
-
 * Email unik
 * Password minimal 8 karakter
 * Title wajib diisi
 * Content wajib diisi
 
 ### Security
-
 * Password wajib di-hash
 * Endpoint Notes harus menggunakan JWT Middleware
 
 ### Database
-
-Menyediakan migration dan seed data.
+Menyediakan file schema .sql berisikan CREATE TABLE untuk tabel yang dibuat
 
 ## Nilai Tambah
-
 ### Arsitektur
-
 * Layered Architecture / Clean Architecture
 * Repository Pattern
 * Service Layer
 
 ### Dokumentasi
-
-* Swagger/OpenAPI
-* Postman Collection
+* README.md
+* Swagger/OpenAPI (Opsional)
+* Postman Collection (Opsional)
 
 ### Testing
-
-Minimal:
-
-* Authentication endpoint
-* Notes endpoint
+CRUD Notes
 
 ### Deployment
-
 Aplikasi di-deploy dan dapat diakses secara publik.
-
 Contoh:
-
 * Railway
 * Render
 * VPS
 * Docker Container
 
-### DevOps
-
+### DevOps (Opsional)
 * Dockerfile
 * docker-compose
 
 ### Extra Feature (Opsional)
-
-Pilih salah satu:
-
 1. Soft Delete Notes
 2. Note Categories
 3. Note Tags
@@ -135,24 +103,20 @@ Pilih salah satu:
 5. Activity Log
 
 ## Pengumpulan
-
 1. Upload source code ke GitHub (Public).
-
 2. Sertakan README yang berisi:
-
    * Cara menjalankan aplikasi
    * Struktur project
    * API Documentation
    * URL Deployment
-
-3. Kirim link repository ke [developer@ebyb.com](mailto:developer@ebyb.com)
+3. Kirim link repository ke [developer@ebyb.com](mailto:developer@ebyb.com) dan WhatsApp HRD
 
 ## Deadline
+Maksimal 1 Minggu setelah diberikan Test.
 
-Maksimal 3 hari.
-
+## Penilaian
 Penilaian akan mempertimbangkan:
-
+* Kecepatan pengerjaan
 * Kualitas kode
 * Struktur project
 * Database design
