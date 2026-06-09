@@ -77,13 +77,16 @@ Menyediakan file schema .sql berisikan CREATE TABLE untuk tabel yang dibuat
 
 ### Dokumentasi
 * README.md
-* Swagger/OpenAPI (Opsional)
-* Postman Collection (Opsional)
+* Swagger/OpenAPI
+* Postman Collection
 
 ### Testing
-CRUD Notes
+* Create Note
+* Read Note 
+* Update Note
+* Delete Note
 
-### Deployment (Opsional)
+### Deployment
 Aplikasi di-deploy dan dapat diakses secara publik.
 Contoh:
 * Railway
@@ -91,11 +94,11 @@ Contoh:
 * VPS
 * Docker Container
 
-### DevOps (Opsional)
+### DevOps
 * Dockerfile
 * docker-compose
 
-### Extra Feature (Opsional)
+### Extra Feature
 1. Soft Delete Notes
 2. Note Categories
 3. Note Tags
