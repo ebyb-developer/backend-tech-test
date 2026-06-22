@@ -47,7 +47,7 @@ Menggunakan format response yang konsisten.
 Contoh:
 ```json
 {
-  "success": true,
+  "status": "Success",
   "message": "Note created successfully",
   "data": {}
 }
@@ -113,7 +113,7 @@ Contoh:
 3. Kirim link repository ke [developer@ebyb.com](mailto:developer@ebyb.com) dan WhatsApp HRD
 
 ## 4. Deadline
-Maksimal 1 Minggu setelah diberikan Test.
+Maksimal 3 Hari setelah diberikan Test.
 
 ## 5. Penilaian
 Penilaian akan mempertimbangkan:
